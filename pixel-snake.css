@@ -1,0 +1,80 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: top;
+    background-color: #444;
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+#gameBoard {
+    border: 1px solid #eee;
+    border-radius: 5px;
+}
+
+#info {
+    width: 20%;
+    color: #eee;
+    padding: 10px;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    margin-left: 20px;
+    background-color: rgba(0,0,0,0.7);
+}
+
+    #info p {
+        line-height: 1.6;
+    }
+
+    #info span {
+        margin-left: 10px;
+        font-weight: bold;
+    }
+
+#title {
+    font-size: 2em;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+    #title span {
+        font-size: 0.6em;
+        color: lime;
+    }
+
+    #title .red {
+        color: red;
+    }
+
+    #title .blue {
+        color: blue;
+    }
+
+#game {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: top;
+}
+
+#gameOverMessage {
+    display: none;
+    font-weight: bold;
+    color: red;
+}
+
+#instructions {
+    width: 20%;
+    color: #eee;
+    padding: 10px;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    margin-right: 20px;
+    background-color: rgba(0,0,0,0.7);
+}
+
+#instructions p {
+    line-height: 1.6;
+}
